@@ -3,8 +3,26 @@
 <head>
 	<title>Ours</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="../Land/cat.png"
+  type="image/x-icon">
 </head>
 <body>
+  <header>
+    <a href="https://open.spotify.com/playlist/4TGktaubjG3uhdm1ygQiGq?si=c49f893ad67e4103" class="logo">mon cheri</a>
+    <ul>
+      <li><a href="../index.html"><b>Home</b></a></li>
+      <li><a href="../index.html#sec"><b>About Us</b></a></li>
+      <li><a href="#"><b>Our Memories</b></a></li>
+    </ul>
+  </header>
+
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0)
+    })
+  </script>
+
   <div class="container">
     <div class="heading">
       <h3>Our <span>Memories</span></h3>
