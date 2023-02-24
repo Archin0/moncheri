@@ -104,12 +104,22 @@ header ul li a.active
 .container .heading{
   width: 50%;
   padding-bottom: 50px;
+
 }
-.container .heading h3{
-  font-size: 3em;
+.container .heading h2{
+  position: relative;
+  display: inline-flex;
+  font-size: 3.5em;
   font-weight: bolder;
   padding-bottom: 10px;
-  border-bottom: 3px solid #222;
+  border-right: 1.5px solid #222;
+}
+
+.container .heading h3{
+  display: inline-flex;
+  font-size: 3.5em;
+  font-weight: bolder;
+  padding-bottom: 10px;
 }
 
 .container .heading h3 span{
